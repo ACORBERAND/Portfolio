@@ -3,40 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="main.css" rel="stylesheet"> 
-    <link href="reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;600;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header">   <!-- premier bloc de la page-->
-        <div class="menu">
-            <ul>
-                <a class="projet" href="#">Projet</a>
-            </ul>
-            <ul>
-                <a class="curriculum" href="#">Curriculum vitæ</a>
-            </ul>
-            <ul>
-                <button class="contact">
-                    <a class="link-contact" href="#">Contactez-moi</a>
-                </button>
-            </ul>
-        </div>
-        <div class="text-header">
-            <h1 class="hello">Hello !</h1>
-            <h3 class="sous-titre-header">Moi c’est <strong class="Antoine">Antoine CORBERAND</strong>,<br> 
-                Étudiant <span class="IUT">MMI</span> à l’<span class="IUT">IUT Bordeaux Montaigne</span>.</h3>
-        </div>
-        <div class="img-header">
-            <img src="img/ordi.svg" alt="image-Post-Computers">
-        </div>
-        <div class="icone-next">
-            <img src="img/suivant.svg" alt="icone-next">
-        </div>
-    </section>
+    
+    <header>
+        <h2 class="logo">Logo</h2>
+            <nav class="navigation">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            </nav>
+    </header>
+    <div class="hidden">
+        <section class="parallax">
+            <img src="img/1.svg" id="hill1">
+            <img src="img/2.svg" id="hill2">
+            <img src="img/3.svg" id="hill3">
+            <img src="img/4.svg" id="hill4">
+            <img src="img/6.svg" id="hill6">
+            <img src="img/5.svg" id="hill5">
+            <img src="img/7.svg" id="hill7">
+            <h2 id="text">Antoine CORBERAND</h2>
+            <img src="img/8.svg" id="hill8">
+        </section>
+    </div>
     <section class="me">    <!-- Deuxième partie de la page (présentation de moi-même) -->
         <div class="text-me">
             <h1 class="qui-suis-je">Qui suis-je ?</h1>
@@ -91,5 +88,6 @@
             </ul>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
