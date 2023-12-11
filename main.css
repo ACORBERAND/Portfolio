@@ -6,6 +6,7 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
 }
+/* Configuration de la première partie du site web */
 header{
     position: absolute;
     top: 0;
@@ -25,6 +26,7 @@ header{
     pointer-events: none;
     margin-right: 330px;
 }
+/* configuration de la partie de navigation tout en haut du site web */
 .navigation a{
     text-decoration: none;
     color: #359381;
@@ -39,6 +41,7 @@ header{
     background: #359381;
     color: #fff;
 }
+/* la partie ou il y a toutes les hills et le texte 'Antoine CORBERAND' */
 .parallax{
     position: relative;
     display: flex;
@@ -66,6 +69,7 @@ header{
     height: 100%;
     pointer-events: none;
 }
+/* Positionnement de toutes les hills */
 #hill1{
     top: 19.89px;
 }
@@ -92,10 +96,12 @@ header{
     top: 298px;
     left: -1px;
 }
+/* Deuxième partie du site web */
 .hidden2{
     height: 100vh;
     overflow: hidden;
 }
+/* Postionnement de toutes les images */
 .partie2 img{
     position: absolute;
 }
@@ -120,6 +126,7 @@ header{
     margin-top: 56.49%;
     margin-left: 62%;
 }
+/* Titre Projet au centre de la deuxième partie */
 .title-project{
     position: absolute;
     font-family: 'Poppins', sans-serif;

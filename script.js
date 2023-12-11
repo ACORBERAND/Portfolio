@@ -1,3 +1,4 @@
+// permet d'animer les différents hills
 let text = document.getElementById('text');
 let hill7 = document.getElementById('hill7');
 let hill1 = document.getElementById('hill1');
