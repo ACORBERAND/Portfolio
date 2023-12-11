@@ -127,11 +127,3 @@ header{
     margin-left: 62%;
 }
 /* Titre Projet au centre de la deuxième partie */
-.title-project{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 4em;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-}
