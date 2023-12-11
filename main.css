@@ -92,109 +92,39 @@ header{
     top: 298px;
     left: -1px;
 }
-.me{
-    position: relative;
-    background: #01362B;
-    padding: 100px;
+.hidden2{
+    height: 100vh;
+    overflow: hidden;
 }
-.img-me{
-    margin-top: 100px;
-    margin-left: 70px;
-    width: 420px;
-    height: 514px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: lightgray -69.321px -29.027px / 118.233% 120.756% no-repeat;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.31);
-}
-.text-me{
+.partie2 img{
     position: absolute;
-    margin-left: 620px;
 }
-.qui-suis-je{
-    margin-top: 100px;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.paragraphe-autobio{
-    margin-top: 50px;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 140%; /* 25.2px */
-    letter-spacing: 0.9px;
-}
-.btn-me{
+#solhidden2{
+    width: 100vw;
     margin-top: 100px;
 }
-/* bouton curriculum vitae */
-.cv{
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%; /* 28px */
-    text-decoration: none;
+#partihauthidden2{
+    width: 100vw;
 }
-/* bouton contactez-moi */
-.cm{
-    margin-top: 65px;
-    width: 199px;
-    height: 53.896px;
-    background: #9C27B0;
-    border-radius: 15px;
-    border: none;
+#droitehidden2{
+    width: 34vw;
+    margin-left: 66%;
+    margin-top: 39%;
 }
-.link-cm{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFF;
-    text-decoration: none;
+#basgauchehidden2{
+    width: 36vw;
+    margin-top: 35.4%;
 }
-.project{
-    position: relative;
-    background: #01362B;
-    padding: 50px;
+#basdroitehidden2{
+    width: 37.5vw;
+    margin-top: 56.49%;
+    margin-left: 62%;
 }
 .title-project{
-    margin-top: 100px;
-    color: #ffffff;
+    position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-}
-.project-bloc{
-    width: 1300px;  
-    display: flex;
-    flex-direction: row;
-    gap: 285px;
-    padding-top: 100px;
-    padding-left: 70px;
-}
-.project-bloc img{
-    width: 310px;
-    height: 450px;
-    flex-shrink: 0; 
-    border-radius: 15px;
-    box-shadow: 0px 4px 20px 10px rgba(255, 255, 255, 0.25);
-}
-.project-bloc h2{
-    position: absolute;
-    color: #FFF;
-}
-.project-bloc p{
-    position: absolute;
-    color: #FFF;
+    font-weight: 600;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
