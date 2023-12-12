@@ -98,7 +98,7 @@ header{
 }
 /* Deuxième partie du site web */
 .hidden2{
-    height: 100vh;
+    height: 142vh;
     overflow: hidden;
 }
 /* Postionnement de toutes les images */
@@ -126,4 +126,52 @@ header{
     margin-top: 56.49%;
     margin-left: 62%;
 }
-/* Titre Projet au centre de la deuxième partie */
+/* Deuxième partie du site web */
+.hidden3{
+    height: 160vh;
+    overflow: hidden;
+}
+/* Postionnement de toutes les images */
+.partie3 img{
+    position: absolute;
+}
+#fond{
+    width: 100vw;
+    margin-top: 100px;
+    left: -2px;
+}
+#sol{
+    width: 100vw;
+    margin-top: 905px;
+}
+#cote{
+    width: 100vw;
+    margin-top: 153px;
+}
+#hautgauche{
+    margin-top: 90px;
+}
+#hautdroite{
+    margin-top: 100px;
+    margin-left: 941px;
+}
+#bas{
+    width: 100vw;
+    margin-top: 630px;
+}
+#fondfin{
+    width: 100vw;
+    margin-top: 1119px;
+}
+#lave{
+    width: 66vw;
+    margin-top: 1048px;
+    margin-left: 295px;
+}
+#pierregauche{
+    margin-top: 910px;
+}
+#pierredroite{
+    margin-top: 910px;
+    margin-left: 937px;
+}
