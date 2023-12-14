@@ -20,7 +20,7 @@ body{
 .contact{
     width: 199px;
     height: 53.896px;
-    background: #9C27B0;
+    background: #ED4BFF;
     border-radius: 15px;
     border: none;
 }
@@ -29,7 +29,7 @@ body{
     font-family: 'Jost', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #FFF;
+    color: #ffffff;
     text-decoration: none;
 }
 .curriculum{
@@ -91,7 +91,7 @@ body{
 }
 /* petit mot modifié dans le texte */
 .Antoine{
-    color: #9C27B0;
+    color: #ED4BFF;
     font-weight: 700;
 }
 .IUT{
@@ -173,7 +173,7 @@ body{
     margin-top: 65px;
     width: 199px;
     height: 53.896px;
-    background: #9C27B0;
+    background: #ED4BFF;
     border-radius: 15px;
     border: none;
 }
@@ -251,7 +251,7 @@ body{
 }
 .project-bloc a{
     display: flex;
-    color: #FFF;
+    color: #ffffff;
     font-family: 'Jost';
     font-size: 20px;
     font-weight: 400;
