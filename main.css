@@ -20,7 +20,7 @@ body{
 .contact{
     width: 199px;
     height: 53.896px;
-    background: #ED4BFF;
+    background: rgb(156, 39, 176);
     border-radius: 15px;
     border: none;
 }
@@ -173,7 +173,7 @@ body{
     margin-top: 65px;
     width: 199px;
     height: 53.896px;
-    background: #ED4BFF;
+    background: rgb(156, 39, 176);
     border-radius: 15px;
     border: none;
 }
