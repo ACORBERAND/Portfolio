@@ -203,6 +203,8 @@ body{
     align-items: center;
     gap: 150px;
     padding-top: 100px;
+   
+    
 }
 .project-bloc img{
     width: 310px;
@@ -260,10 +262,4 @@ body{
 .cm-fin{
    margin-top: 50px; 
    text-align: center;
-}
-.project1{
-    padding-left: 70px;
-}
-.project3{
-    margin-right: 70px;
 }
