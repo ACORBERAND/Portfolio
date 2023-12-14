@@ -103,6 +103,10 @@ header{
     overflow: hidden;
     height: 238.5vh;
 }
+.fond2{
+    overflow: hidden;
+    height: 308.5vh;
+}
 #fond{
     width: 100vw;
     position: relative;
