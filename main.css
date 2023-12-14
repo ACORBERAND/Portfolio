@@ -93,6 +93,8 @@ body{
 .Antoine{
     color: #9C27B0;
     font-weight: 700;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #c246d8;
 }
 .IUT{
     font-weight: 700;
