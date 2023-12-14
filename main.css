@@ -279,9 +279,21 @@ body{
 }
 .cm-fin{
    margin-top: 50px; 
+   padding-bottom: 100px;
    text-align: center;
 }
 footer{
     background-color: #000;
     border-radius: 15px 15px 0px 0px; 
+    padding-top: 100px;
+}
+footer h2{
+    color: #FFF;
+    text-align: center;
+    padding-top: 50px;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
 }
