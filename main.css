@@ -96,82 +96,18 @@ header{
     top: 298px;
     left: -1px;
 }
-/* Deuxième partie du site web */
-.hidden2{
-    height: 142vh;
-    overflow: hidden;
-}
-/* Postionnement de toutes les images */
-.partie2 img{
+/* Deuxième section du site web */
+.pierre2{
     position: absolute;
-}
-#solhidden2{
-    width: 100vw;
-    margin-top: 100px;
-}
-#partihauthidden2{
-    width: 100vw;
-}
-#droitehidden2{
-    width: 34vw;
-    margin-left: 66%;
-    margin-top: 39%;
-}
-#basgauchehidden2{
-    width: 36vw;
-    margin-top: 35.4%;
-}
-#basdroitehidden2{
-    width: 37.5vw;
-    margin-top: 56.49%;
-    margin-left: 62%;
-}
-/* Deuxième partie du site web */
-.hidden3{
-    height: 160vh;
+    top: 1240px;
     overflow: hidden;
-}
-/* Postionnement de toutes les images */
-.partie3 img{
-    position: absolute;
+    height: 238.5vh;
 }
 #fond{
     width: 100vw;
-    margin-top: 100px;
-    left: -2px;
+    position: relative;
+    z-index: -2;
 }
-#sol{
-    width: 100vw;
-    margin-top: 905px;
-}
-#cote{
-    width: 100vw;
-    margin-top: 153px;
-}
-#hautgauche{
-    margin-top: 90px;
-}
-#hautdroite{
-    margin-top: 100px;
-    margin-left: 941px;
-}
-#bas{
-    width: 100vw;
-    margin-top: 630px;
-}
-#fondfin{
-    width: 100vw;
-    margin-top: 1119px;
-}
-#lave{
-    width: 66vw;
-    margin-top: 1048px;
-    margin-left: 295px;
-}
-#pierregauche{
-    margin-top: 910px;
-}
-#pierredroite{
-    margin-top: 910px;
-    margin-left: 937px;
+#pierre{
+   width: 100vw;
 }
