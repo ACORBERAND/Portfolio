@@ -102,16 +102,18 @@ header{
     top: 1240px;
     overflow: hidden;
     height: 238.5vh;
+    width: 100vw;
+    background-image: url(img/pierre.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fond2{
     overflow: hidden;
     height: 308.5vh;
-}
-#fond{
     width: 100vw;
+    background-image: url(img/fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     z-index: -2;
-}
-#pierre{
-   width: 100vw;
 }
