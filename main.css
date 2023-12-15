@@ -1,5 +1,5 @@
 body{
-    width: 100;
+    width: 89%;
     height: 100%;
 }
 /* début du site qui claque */
@@ -142,23 +142,20 @@ body{
 /* Section de la deuxième partie */
 .me{
     background-color: #FFF;
+    padding: 100px 70px;
 }
-.img-me{
-    margin-top: 100px;
-    margin-left: 70px;
+.img-me img{
     width: 420px;
     height: 514px;
-    flex-shrink: 0;
     border-radius: 15px;
     background: lightgray -69.321px -29.027px / 118.233% 120.756% no-repeat;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.31);
 }
 .text-me{
     position: absolute;
-    margin-left: 620px;
+    margin-left: 40%;
 }
 .qui-suis-je{
-    margin-top: 100px;
     color: #000;
     font-family: 'Jost';
     font-size: 48px;
@@ -177,6 +174,7 @@ body{
     letter-spacing: 0.9px;
 }
 .btn-me{
+    width: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
