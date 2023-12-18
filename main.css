@@ -326,6 +326,25 @@ footer a{
     color: #ffffff;
     font-weight: 700;
 }
+.icone-contact{
+    width: 250px;
+    padding: 40px 30px;
+    justify-content: space-between;
+    display: flex;
+}
+.icone-contact img{
+    width: 50px;
+    height: 50px;   
+}
+.icone-linkedin:hover{
+    filter:drop-shadow(0px 0px 10px #0077B5);
+}
+.icone-linkedin:active{
+    filter: brightness(50%);
+}
+.icone-behance:hover{
+    filter: brightness(50%);
+}
 .stage-footer{
     width: 460px;
     height: 362px;
