@@ -23,7 +23,17 @@ body{
     background: rgb(156, 39, 176);
     border-radius: 15px;
     border: none;
-}
+ }
+ .contact:hover{
+    transform: 5.5s;
+     background-image:radial-gradient(circle
+     farthest-corner at 10% 20%, rgba(156, 39, 176,1) 
+     40.8%, rgb(90, 4, 105) 100.2%);
+     filter: drop-shadow( 0px 0px 10px rgba(156, 39, 176,1));
+ }
+ .contact:active{
+    filter: brightness(50%);
+ }
 .link-contact{
     text-align: center;
     font-family: 'Jost', sans-serif;
@@ -44,6 +54,13 @@ body{
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+    transition: .2s;
+}
+.curriculum:hover{
+    filter: drop-shadow( 0px 0px 5px rgb(255, 255, 255));
+}
+.curriculum:active{
+    filter: brightness(50%);
 }
 .projet{
     display: flex;
@@ -58,6 +75,13 @@ body{
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+    transition: .2s;
+}
+.projet:hover{
+    filter: drop-shadow( 0px 0px 5px rgb(255,255,255));
+}
+.projet:active{
+    filter: drop-shadow(50%);
 }
 .text-header{
     width: 615px;
@@ -142,7 +166,7 @@ body{
 /* Section de la deuxième partie */
 .me{
     background-size: auto;
-    background-color: #FFF;
+    background-color: #ffffff;
     padding: 100px 70px;
 }
 .img-me img{
@@ -188,6 +212,15 @@ body{
     border-radius: 15px;
     border: none;
 }
+.cm:hover{
+     background-image:radial-gradient(circle
+     farthest-corner at 10% 20%, rgba(156, 39, 176,1) 
+     40.8%, rgb(90, 4, 105) 100.2%);
+     filter: drop-shadow( 0px 0px 10px rgba(156, 39, 176,1));
+}
+.cm:active{
+    filter: brightness(50%);
+}
 .link-cm{
     text-align: center;
     font-family: 'Jost', sans-serif;
@@ -201,12 +234,18 @@ body{
     display: flex;
     top: 27px;
     color: #000;
-    font-family: 'Jost';
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
     text-decoration: none;
+}
+.cv:hover{
+    filter: drop-shadow(0px 0px 0px #000);
+}
+.cv:active{
+    filter: brightness(50%);
 }
 .licv{
     padding-left: 100px;
@@ -284,8 +323,14 @@ body{
     margin-left: 92px;
     padding-top: 170px;
 }
+.project-bloc a:hover{
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+.project-bloc a:active{
+    filter: brightness(50%);
+}
 .cm-fin{ 
-   padding-bottom: 100px;
+   margin-bottom: 100px;
    text-align: center;
 }
 footer{
@@ -386,6 +431,10 @@ footer a{
     margin-top: 50px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.stage-footer a:hover{
+    filter: drop-shadow(0px 0px 0.5px #fff);
 }
 .other-footer{
     width: 310px;
