@@ -13,9 +13,10 @@ body{
 .menu{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     padding-top: 30px;
-    padding-left: 500px;
-    gap: 70.5px;
+    gap: 60px;
+
 }
 .contact{
     width: 199px;
@@ -234,7 +235,7 @@ body{
     display: flex;
     top: 27px;
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -251,84 +252,99 @@ body{
     padding-left: 100px;
     margin-top: 15px;
 }
-.projet{
-    padding: 0 70px;
-    width: 100%;  
-}
-.project-bloc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 100px 70px;
-}
-.title-project{
-    color: #000;
-    font-family: 'Jost';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+/* partie projet */
+.project{
     text-align: center;
-}
-.project-bloc img{
-    width: 310px;
-    height: 450px;
-    flex-shrink: 0; 
-    border-radius: 15px;
-    box-shadow: 0px 4px 20px 10px rgba(0, 0, 0, 0.25);
-}
-.project-bloc h2{
-    position: absolute;
-    color: #FFF;
-}
-.project-bloc p{
-    position: absolute;
-    color: #FFF;
-}
-.blur{
-    position: absolute;
-    width: 310px;
-    height: 210px;
-    flex-shrink: 0;
-    border-radius: 0px 0px 15px 15px;
-    background: rgba(47, 46, 46, 0.40);
-    backdrop-filter: blur(10px);
-    margin-top: 240px;
-}
-.project-bloc h2{
-    color: #FFF;
+    padding-top: 50px;
     font-family: 'Jost';
-    font-size: 20px;
     font-weight: 700;
-    margin-left: 15px;
-    margin-top: 10px;
+    font-size: 48px;
 }
-.project-bloc p{
-    color: #FFF;
-    font-family: 'Jost';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 140%; /* 16.8px */
-    letter-spacing: 0.6px;
-    margin-left: 15px;
-    margin-top: 49px;
-}
-.project-bloc a{
+.container-projet{
+    padding: 100px 70px;
     display: flex;
-    color: #ffffff;
-    font-family: 'Jost';
-    font-size: 20px;
-    font-weight: 400;
+    justify-content: space-between;
+    align-items: center; 
+}
+.container-projet a{
     text-decoration: none;
-    margin-left: 92px;
-    padding-top: 170px;
 }
-.project-bloc a:hover{
-    filter: drop-shadow(0px 0px 5px #fff);
+.link-article{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #FFF;
 }
-.project-bloc a:active{
-    filter: brightness(50%);
+article{
+    width: 305px;
+    height: 450px;
+    border-radius: 15px;
+    flex-shrink: 0;
 }
+.art1{
+    background-image: url(img/reboot_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px #000000;
+}
+.text-buttom{
+    padding: 20px 15px;
+    width: auto;
+    height: 180px;
+    backdrop-filter: blur(50px);
+    border-radius: 0px 0px 15px 15px;
+}
+.container-projet h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.p-article{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.art2{
+    background-image: url(img/Projet_en_cours.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px #000000;
+}
+#countdown{
+    color: #000000;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 105px;
+}
+.art2 .link-article{
+    margin-top: 100px;
+}
+.art3{
+    background-image: url(img/Projet_en_cours.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px #000000;
+}
+.art3 .link-article{
+    margin-top: 100px;
+}
+/* fin de projet */
 .cm-fin{ 
    margin-bottom: 100px;
    text-align: center;
@@ -339,7 +355,7 @@ footer{
     border-radius: 15px 15px 0px 0px; 
     padding-top: 100px;
 }
-/* partie contact dans le footer */
+/* partie 1, qui est contact dans le footer */
 .container-footer-contact{
     display: flex;
     justify-content: space-between;
@@ -351,7 +367,7 @@ footer{
     border-radius: 15px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     background: rgba(156, 39, 176, 0.60);
 }
 footer h2{
@@ -402,6 +418,7 @@ footer a{
 .icone-github:active{
     filter: brightness(50%);
 }
+/* partie 2 du footer, portion stage */
 .stage-footer{
     width: 460px;
     height: 362px;
@@ -410,7 +427,7 @@ footer a{
 }
 .stage-footer h2{
     color: #FFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 700;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -418,7 +435,7 @@ footer a{
 }
 .stage-footer p{
     color: #FFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 300;
     padding: 0 30px;
@@ -430,18 +447,19 @@ footer a{
     align-items: center;
     margin-top: 50px;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
 }
 .stage-footer a:hover{
     filter: drop-shadow(0px 0px 0.5px #fff);
 }
+/* troisième partie du footer */
 .other-footer{
     width: 310px;
     height: 362px;
     border-radius: 15px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     background: rgba(156, 39, 176, 0.60);
 }
