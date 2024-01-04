@@ -191,7 +191,7 @@ body{
 }
 .img-me img{
     width: 420px;
-    height: auto;
+    height: 100%;
     border-radius: 15px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.31);
 }
@@ -485,7 +485,7 @@ footer a{
 
     .img-header img{
         width: 200px;
-        height: auto;
+        height: 100%;
     }
 }
 @media screen and (max-width: 840px){
@@ -496,23 +496,19 @@ footer a{
         visibility: hidden;
     }
     .img-header img{
-        width: 200px;
-        height: auto;
+        visibility: hidden;
     }
     .img-me img{
         width: 350px;
-        height: auto;
+        height: 100%;
     }
     .text-header{
         width: auto;
     }
     .text-header h1{
-        font-size: 24px;
+        font-size: 40px;
     }
     .text-header p{
-        font-size: 14px;
-    }
-    p{
-        font-size: 14px;
+        font-size: 24px;
     }
 }
