@@ -490,6 +490,9 @@ footer a{
 }
 @media screen and (max-width: 840px){ /* version mobile */
     /* partie du header */
+    body{
+        width: 100%;
+    }
     .header{
         padding: 0 14px;
     }
@@ -497,7 +500,7 @@ footer a{
         visibility: visible;
     }
     .menu{
-        visibility: hidden;
+        display: none;
     }
     .container-header{
         margin-top: 140px;
@@ -518,7 +521,7 @@ footer a{
         font-size: 40px;
     }
     .text-header p{
-        font-size: 24px;
+        font-size: 18px;
     }
     /* deuxième partie "Qui sui-je ?" */
     .me{
@@ -534,7 +537,7 @@ footer a{
     .paragraphe-me{
         width: auto;
         height: auto;
-        font-size: 24px;
+        font-size: 18px;
     }
     .btn-me{
         flex-direction: column;
@@ -555,5 +558,9 @@ footer a{
         gap: 20px;
     }
     /* dernière partie "le footer" */
-    
+    .container-footer-contact{
+        padding: 0 14px;
+        justify-content: center;
+        align-items: center;
+    }
 }
