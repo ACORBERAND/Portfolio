@@ -488,7 +488,8 @@ footer a{
         height: 100%;
     }
 }
-@media screen and (max-width: 840px){
+@media screen and (max-width: 840px){ /* version mobile */
+    /* partie du header */
     .header{
         padding: 0 14px;
     }
@@ -518,5 +519,13 @@ footer a{
     }
     .text-header p{
         font-size: 24px;
+    }
+    /* deuxième partie "Qui sui-je ?" */
+    .me{
+        padding: 50px 14px;
+    }
+    .img-me img{
+        width: 250px;
+        height: auto;
     }
 }
