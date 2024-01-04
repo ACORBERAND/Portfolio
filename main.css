@@ -103,7 +103,7 @@ body{
 }
 .text-header{
     width: 615px;
-    height: 184px;
+    height: auto;
     flex-shrink: 0;
 }
 .hello{
