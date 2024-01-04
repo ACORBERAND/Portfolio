@@ -4,7 +4,7 @@ body{
 /* début du site qui claque */
 .header{
     background-size: auto;
-    height: 800px;
+    height: auto;
     padding: 0 70px;
     flex-shrink: 0;
     background: #141414;
@@ -499,13 +499,15 @@ footer a{
         visibility: hidden;
     }
     .container-header{
-        margin-top: 50px;
+        margin-top: 75px;
     }
     .text-header{
         width: 400px;
     }
     .img-header img{
         visibility: hidden;
+        width: auto;
+        height: 75px;
     }
     .img-me img{
         width: 350px;
