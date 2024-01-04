@@ -528,4 +528,20 @@ footer a{
         width: 250px;
         height: auto;
     }
+    .qui-suis-je{
+        font-size: 32px;
+    }
+    .paragraphe-me{
+        width: auto;
+        height: auto;
+        font-size: 24px;
+    }
+    .btn-me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .licv{
+        padding-left: 0px;
+    }
 }
