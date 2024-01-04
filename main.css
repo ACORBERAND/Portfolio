@@ -489,11 +489,17 @@ footer a{
     }
 }
 @media screen and (max-width: 840px){
+    .header{
+        padding: 0 14px;
+    }
     .img-menu img{
         visibility: visible;
     }
     .menu{
         visibility: hidden;
+    }
+    .container-header{
+        margin-top: 50px;
     }
     .img-header img{
         visibility: hidden;
@@ -501,9 +507,6 @@ footer a{
     .img-me img{
         width: 350px;
         height: 100%;
-    }
-    .text-header{
-        width: auto;
     }
     .text-header h1{
         font-size: 40px;
