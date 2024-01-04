@@ -84,6 +84,12 @@ body{
 .projet:active{
     filter: drop-shadow(50%);
 }
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .text-header{
     width: 615px;
     height: 184px;
@@ -123,12 +129,8 @@ body{
 }
 /* image de l'ordinateur dans le header de la page */
 .img-header{
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    flex-shrink: 0;
-    margin-top: 100px;
-    margin-left: 850px;
+    width: auto;
+    height: auto;
 }
 .img-header img{
     width: 402.019px;
@@ -170,6 +172,11 @@ body{
     background-color: #ffffff;
     padding: 100px 70px;
 }
+.container-me{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
 .img-me img{
     width: 420px;
     height: 100%;
@@ -177,9 +184,8 @@ body{
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.31);
 }
 .text-me{
-    position: absolute;
-    margin-left: 35%;
-    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
 }
 .qui-suis-je{
     color: #000;
@@ -252,6 +258,7 @@ body{
     padding-left: 100px;
     margin-top: 15px;
 }
+
 /* partie projet */
 .project{
     text-align: center;
@@ -265,6 +272,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    flex-wrap: wrap;
 }
 .container-projet a{
     text-decoration: none;
@@ -360,6 +368,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 50px 70px;
+    flex-wrap: wrap;
 }
 .contact-footer{
     width: 310px;
@@ -462,4 +471,16 @@ footer a{
     color: #FFF;
     font-family: 'Jost', sans-serif;
     background: rgba(156, 39, 176, 0.60);
+}
+/* version mobile */
+@media screen and (max-width: 1000px){
+    body{
+        width: 100vw;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .img-header img{
+        visibility: hidden;
+    }
 }
