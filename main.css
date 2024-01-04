@@ -501,6 +501,9 @@ footer a{
     .container-header{
         margin-top: 50px;
     }
+    .text-header{
+        width: 400px;
+    }
     .img-header img{
         visibility: hidden;
     }
