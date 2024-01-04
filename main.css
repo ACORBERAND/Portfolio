@@ -499,7 +499,7 @@ footer a{
         visibility: hidden;
     }
     .container-header{
-        margin-top: 125px;
+        margin-top: 140px;
     }
     .text-header{
         width: 400px;
@@ -507,7 +507,7 @@ footer a{
     .img-header img{
         visibility: hidden;
         width: auto;
-        height: 125px;
+        height: 140px;
     }
     .img-me img{
         width: 350px;
