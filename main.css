@@ -544,4 +544,16 @@ footer a{
     .licv{
         padding-left: 0px;
     }
+    /* troisième partie "projet" */
+    .project{
+        font-size: 32px;
+    }
+    .container-projet{
+        padding: 50px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    /* dernière partie "le footer" */
+    
 }
