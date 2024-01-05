@@ -520,7 +520,7 @@ footer a{
     }
     .img-header img{
         visibility: hidden;
-        width: auto;
+        width: 100%;
         height: 140px;
     }
     .img-me img{
@@ -541,7 +541,7 @@ footer a{
     }
     .img-me img{
         width: 250px;
-        height: auto;
+        height: 100%;
     }
     .qui-suis-je{
         font-size: 32px;
