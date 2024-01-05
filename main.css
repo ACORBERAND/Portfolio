@@ -580,13 +580,34 @@ footer a{
         width: 280px;
         height: auto;
     }
-    .contact-footer 
+    .contact-footer h2{
+        padding-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    .contact-footer p{
+        padding-left: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .icone-contact{
+        padding: 0;
+        justify-content:space-around;
+        padding-left: 10px;
+    }
     .stage-footer{
         width: 280px;
         height: auto;
     }
+    .stage-footer h2{
+        font-size: 28px;
+    }
+    .stage-footer p{
+        font-size: 14px;
+    }
     .stage-footer a{
         padding-bottom: 20px;
+        margin-top: 10px;
     }
     .other-footer{
         display: none;
