@@ -377,6 +377,7 @@ footer{
     justify-content: space-between;
     padding: 50px 70px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .contact-footer{
     width: 310px;
@@ -515,7 +516,7 @@ footer a{
         margin-top: 140px;
     }
     .text-header{
-        width: 400px;
+        width: auto;
     }
     .img-header img{
         visibility: hidden;
@@ -526,11 +527,13 @@ footer a{
         width: 350px;
         height: 100%;
     }
-    .text-header h1{
+    .text-header .hello{
         font-size: 40px;
+        width: 120px;
     }
     .text-header p{
         font-size: 18px;
+        width: 250px;
     }
     /* deuxième partie "Qui sui-je ?" */
     .me{
@@ -568,16 +571,24 @@ footer a{
     }
     /* dernière partie "le footer" */
     .container-footer-contact{
+        width: auto;
         padding: 20px 14px;
         justify-content: center;
         align-items: center;
-        gap: 20px;
     }
+    .contact-footer{
+        width: 280px;
+        height: auto;
+    }
+    .contact-footer 
     .stage-footer{
-        width: 310px;
+        width: 280px;
         height: auto;
     }
     .stage-footer a{
         padding-bottom: 20px;
+    }
+    .other-footer{
+        display: none;
     }
 }
