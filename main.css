@@ -483,6 +483,13 @@ footer a{
 }
 .mention-legal{
     color: #ED4BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 .p-mention{
     color: #FFF;
@@ -492,7 +499,6 @@ footer a{
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    padding-bottom: 20px;
 }
 /* version mobile */
 @media screen and (max-width: 1100px) {
@@ -593,6 +599,7 @@ footer a{
         padding-left: 0;
         text-align: center;
         font-size: 14px;
+        font-weight: 500;
     }
     .icone-contact{
         padding: 0;
@@ -609,6 +616,7 @@ footer a{
     }
     .stage-footer p{
         font-size: 14px;
+        font-weight: 500;
     }
     .stage-footer a{
         padding-bottom: 20px;
