@@ -594,6 +594,7 @@ footer a{
         padding: 0;
         justify-content:space-around;
         padding-left: 10px;
+        margin-bottom: 20px;
     }
     .stage-footer{
         width: 280px;
