@@ -482,6 +482,10 @@ footer a{
     background: rgba(156, 39, 176, 0.60);
 }
 .mention-legal{
+    
+}
+.p-mention{
+    color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
