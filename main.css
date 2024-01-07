@@ -513,6 +513,9 @@ footer a{
     body{
         width: 100%;
     }
+    .next{
+        display: none;
+    }
     .header{
         padding: 0 14px;
     }
