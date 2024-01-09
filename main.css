@@ -1,5 +1,14 @@
 body{   
     background-size: auto;
+    cursor: 
+        url(img/Souris.svg) 2 2,
+        progress;
+}
+a{
+    cursor: url(img/souris_pointer.svg) 1 1, progress;
+}
+button{
+    cursor: url(img/souris_pointer.svg) 1 1, progress;
 }
 /* début du site qui claque */
 .header{
