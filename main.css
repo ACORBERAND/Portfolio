@@ -10,6 +10,10 @@ a{
 button{
     cursor: url(img/souris_pointer.svg) 1 1, progress;
 }
+@font-face {
+    font-family: fa;
+    src: url(asset/police/);
+}
 /* début du site qui claque */
 .header{
     background-size: auto;
