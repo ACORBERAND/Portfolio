@@ -25,3 +25,5 @@
  if(largeurEcran < 840){
     me.src="img/image-moi.webp"
  };
+
+ document.getElementById("date").textContent = new Date().getFullYear();
