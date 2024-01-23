@@ -20,3 +20,8 @@
 
  // Appeler la fonction une fois au chargement de la page pour éviter un délai initial
  updateCountdown();
+
+ let largeurEcran = window.innerWidth;
+ if(largeurEcran < 840){
+    me.src="img/image-moi.webp"
+ };
