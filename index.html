@@ -12,31 +12,28 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="header">   <!-- premier bloc de la page-->
-        <div class="container-menu">
-            <div class="img-menu">
-                <img src="img/ordinateur.svg" alt="image-Post-Computers" loading="lazy">
-            </div>
-            <div class="menu">  
-                <ul>
-                    <li>
-                        <a class="projet" href="#" title="Cliquez ici">Projet</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="curriculum" href="img/CORBERAND_Antoine_CV.pdf" title="Cliquez ici">Curriculum Vitæ</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <button class="contact" >
-                            <a class="link-contact" href="#footer" title="Cliquez ici">Contactez-moi</a>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <!-- menu burger -->
+    <section class="header">
+        <nav id="nav">  
+            <h2>CORBERAND</h2>
+            <ul>
+                <div class="background-burger">
+                <li>
+                    <a href="#projet" title="Cliquez ici">Projet</a>
+                </li>
+                <li>
+                    <a href="img/CORBERAND_Antoine_CV.pdf" title="Cliquez ici">Curriculum Vitæ</a>
+                </li>
+                <li>
+                    <button class="contact" >
+                        <a class="link-contact" href="#footer" title="Cliquez ici">Contactez-moi</a>
+                    </button>
+                </li>
+                </div>
+            </ul>
+            <div id="icons"></div>
+        </nav>
+        <!-- page d'accueil avec l'ordi -->
         <div class="container-header">
             <div class="text-header">
                 <h1 class="hello">Hello !</h1>
@@ -47,14 +44,14 @@
             <div class="img-header">
                 <img src="img/ordinateur.svg" alt="image-Post-Computers" lazy="loading"> <!--loading="lazy", permet de charger l'image que lorsque elle apparaît à l'écran-->
             </div>
-        </div>
-        <div class="icone-next">
-            <div class="container_next">
-                <div class="next">
-                    <img src="img/suivant.svg" alt="next">
+            </div>
+            <div class="icone-next">
+                <div class="container_next">
+                    <div class="next">
+                        <img src="img/suivant.svg" alt="next">
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     <section class="me">    <!-- Deuxième partie de la page (présentation de moi-même) -->
         <div class="container-me">
@@ -93,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section><a name="projet"></a>
         <h2 class="project">Projet</h2>
         <div class='container-projet'>
             <a href="https://la-petite-astronaute.netlify.app">

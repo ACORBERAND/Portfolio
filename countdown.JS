@@ -27,3 +27,16 @@
  };
 
  document.getElementById("date").textContent = new Date().getFullYear();
+
+//  menu burger
+ const links = document.querySelectorAll ('nav li')
+
+icons.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+
+links.forEach((links) => {
+    link.addEventListener('click', () =>{
+        nav.classList.remove("active");
+    });
+});
