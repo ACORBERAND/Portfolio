@@ -14,7 +14,7 @@ button{
     font-family: fa;
     src: url(asset/police/);
 }
-/* début du site qui claque */
+/* Le menu du site (tout en haut  */
 .header{
     background-size: auto;
     height: auto;
@@ -73,7 +73,7 @@ nav ul {
     cursor: pointer;
     display: none;
   }
-/* boutton  */
+/* Configuration du bouton CONTACT */
 .contact{
     width: 199px;
     height: 53.896px;
@@ -99,7 +99,7 @@ nav ul {
     color: #ffffff;
     text-decoration: none;
 }
-  /*section après le menu*/
+  /*Partie juste dessous du header (l'image de l'ordinateur*/
 .container-header{
     display: flex;
     flex-direction: row;
@@ -148,6 +148,7 @@ nav ul {
     width: 100%;
     height: 100%;
 }
+/* Icone à la fin de la section animé qui rebondit */
 .icone-next{
     width: 100px;
     height: 100px;
@@ -180,7 +181,7 @@ nav ul {
     width: 50px;
     height: 50px;
 }
-/* Section de la deuxième partie */
+/* Section de la deuxième partie, la présentation de qui suis-je */
 .me{
     background-size: auto;
     background-color: #ffffff;
@@ -294,6 +295,7 @@ nav ul {
 .container-projet a{
     text-decoration: none;
 }
+/* Partie qui contient les 3 blocks projets */
 .link-article{
     text-align: center;
     margin-top: 20px;
@@ -346,6 +348,7 @@ article{
     flex-direction: column;
     box-shadow: 0px 0px 15px #000000;
 }
+/* partie en JS pour faire un compte à rebourd sur le deuxième block de projet */
 #countdown{
     color: #000000;
     text-align: center;
@@ -369,11 +372,12 @@ article{
 .art3 .link-article{
     margin-top: 100px;
 }
-/* fin de projet */
+/* Le bouton contactez-moi de la section projet */
 .cm-fin{ 
    margin-bottom: 100px;
    text-align: center;
 }
+/* dernière partie en bas le footer */
 footer{
     background-size: auto;
     background-color: #000;
@@ -388,6 +392,7 @@ footer{
     flex-wrap: wrap;
     gap: 20px;
 }
+/* première partie contact dans le footer (le premier block) */
 .contact-footer{
     width: 310px;
     height: 362px;
@@ -445,7 +450,7 @@ footer a{
 .icone-github:active{
     filter: brightness(50%);
 }
-/* partie 2 du footer, portion stage */
+/* 2ème partie du footer, le block "recherche de stage */
 .stage-footer{
     width: 460px;
     height: 362px;
@@ -480,7 +485,7 @@ footer a{
 .stage-footer a:hover{
     filter: drop-shadow(0px 0px 0.5px #fff);
 }
-/* troisième partie du footer */
+/* troisième partie du footer, le other qui le dernier block*/
 .other-footer{
     width: 310px;
     height: 362px;
@@ -490,6 +495,7 @@ footer a{
     font-family: 'Jost', sans-serif;
     background: rgba(156, 39, 176, 0.60);
 }
+/* partie mention légal dans le footer */
 .mention-legal{
     color: #ED4BFF;
     display: flex;
@@ -622,6 +628,7 @@ footer a{
         justify-content: center;
         align-items: center;
     }
+    /* block contact dans le footer pour la version mobile*/
     .contact-footer{
         width: 280px;
         height: auto;
@@ -643,6 +650,7 @@ footer a{
         padding-left: 10px;
         margin-bottom: 20px;
     }
+    /* deuxième block, "recherche de stage dans le footer pour la version mobile */
     .stage-footer{
         width: 280px;
         height: auto;
@@ -658,6 +666,7 @@ footer a{
         padding-bottom: 20px;
         margin-top: 10px;
     }
+    /* dernier block dans le footer, le other pour la version mobile */
     .other-footer{
         display: none;
     }

@@ -28,6 +28,7 @@ button:hover{
  .contact:active{
     filter: brightness(50%);
  }
+ /* pour tout les titres en h2 */
 h2{
     padding: 30px 70px;
     font-family: 'Jost', sans-serif;
@@ -35,6 +36,7 @@ h2{
     font-size: 3rem;
     letter-spacing: 140%;
 }
+/* pour tout les titres en h3 */
 h3{
     padding: 30px 70px;
     font-family: 'Jost', sans-serif;
@@ -42,6 +44,7 @@ h3{
     font-size: 2rem;
     letter-spacing: 140%;
 }
+/* Pour tout les paragraphes */
 p{
     padding: 0 70px;
     font-family: 'Jost', sans-serif;
@@ -49,7 +52,13 @@ p{
     letter-spacing: 140%;
     font-size: 1rem;
 }
+/* Pour les liens de la page */
 a{
     font-family: 'Jost', sans-serif;
     color: black;
 }
+/* pour espacer le footer du body */
+footer{
+    margin-top: 50px;
+}
+/* pour la version mobile */
