@@ -555,6 +555,9 @@ footer a{
       nav li {
         padding: 50px 0;
       }
+      .background-burger{
+        flex-direction: column;
+      }
       nav.active ul {
         left: 0;
       }
