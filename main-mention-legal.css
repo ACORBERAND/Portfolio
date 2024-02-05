@@ -1,0 +1,55 @@
+
+header{
+    display: flex;
+    padding: 30px 70px;
+}
+button{
+    width: 199px;
+    height: 53.896px;
+    background: rgb(156, 39, 176);
+    border-radius: 15px;
+    border: none;
+}
+.buton{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    transform: 5.5s;
+     background-image:radial-gradient(circle
+     farthest-corner at 10% 20%, rgba(156, 39, 176,1) 
+     40.8%, rgb(90, 4, 105) 100.2%);
+     filter: drop-shadow( 0px 0px 10px rgba(156, 39, 176,1));
+ }
+ .contact:active{
+    filter: brightness(50%);
+ }
+h2{
+    padding: 30px 70px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 140%;
+}
+h3{
+    padding: 30px 70px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 140%;
+}
+p{
+    padding: 0 70px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    letter-spacing: 140%;
+    font-size: 1rem;
+}
+a{
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
