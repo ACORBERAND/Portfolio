@@ -383,7 +383,8 @@ footer{
 /* partie 1, qui est contact dans le footer */
 .container-footer-contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 50px 70px;
     flex-wrap: wrap;
     gap: 20px;
@@ -481,16 +482,7 @@ footer a{
 .stage-footer a:hover{
     filter: drop-shadow(0px 0px 0.5px #fff);
 }
-/* troisième partie du footer, le other qui le dernier block*/
-.other-footer{
-    width: 310px;
-    height: 362px;
-    border-radius: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: 'Jost', sans-serif;
-    background: rgba(156, 39, 176, 0.60);
-}
+
 /* partie mention légal dans le footer */
 .mention-legal{
     color: #ED4BFF;
@@ -621,8 +613,6 @@ footer a{
     .container-footer-contact{
         width: auto;
         padding: 20px 14px;
-        justify-content: center;
-        align-items: center;
     }
     /* block contact dans le footer pour la version mobile*/
     .contact-footer{
@@ -661,9 +651,5 @@ footer a{
     .stage-footer a{
         padding-bottom: 20px;
         margin-top: 10px;
-    }
-    /* dernier block dans le footer, le other pour la version mobile */
-    .other-footer{
-        display: none;
     }
 }
