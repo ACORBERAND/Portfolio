@@ -343,6 +343,7 @@ article{
     justify-content: space-between;
     flex-direction: column;
     box-shadow: 0px 0px 15px #000000;
+    margin: 20px 0;
 }
 /* partie en JS pour faire un compte à rebourd sur le deuxième block de projet */
 #countdown{
@@ -364,6 +365,7 @@ article{
     justify-content: space-between;
     flex-direction: column;
     box-shadow: 0px 0px 15px #000000;
+    margin: 20px 0;
 }
 .art3 .link-article{
     margin-top: 100px;

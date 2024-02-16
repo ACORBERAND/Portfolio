@@ -1,0 +1,52 @@
+header{
+    background-size: auto;
+    height: auto;
+    padding: 30px 70px;
+    flex-shrink: 0;
+    background: #141414;
+    border-radius: 0 0 15px 15px;
+}
+h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+a{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+.onglet_project{
+    padding: 50px 30px;
+}
+.onglet_project h1{
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.text_bloc h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    padding: 8px 0px;
+}
+.text_bloc p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 16px;
+}
+.project_bloc_1{
+    padding: 50px 0px;
+}
