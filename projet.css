@@ -127,10 +127,10 @@ a{
     .icone_bloc{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
-        gap: 5px;
-        padding: 10px 0;
+        gap: 15px;
+        padding: 16px 0;
     }
     .icone_bloc img{
         width: 50px;
