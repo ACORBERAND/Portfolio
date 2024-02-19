@@ -14,6 +14,7 @@
          document.getElementById('countdown').innerHTML = days + ' J - ' + hours +' H';
      }
  }
+ 
 
  // Mettre à jour le compte à rebours chaque seconde
  setInterval(updateCountdown, 1000);
