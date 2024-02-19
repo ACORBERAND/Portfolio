@@ -1,11 +1,4 @@
-header{
-    background-size: auto;
-    height: auto;
-    padding: 30px 70px;
-    flex-shrink: 0;
-    background: #141414;
-    border-radius: 0 0 15px 15px;
-}
+/* version mobile */
 h1{
     font-family: 'Jost', sans-serif;
     font-weight: 700;
@@ -26,27 +19,123 @@ a{
     font-family: 'Jost', sans-serif;
     font-weight: 500;
 }
-.onglet_project{
-    padding: 50px 30px;
+.background-burger{
+    padding: 10px 9.2%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+.accueil{
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+/* aaaaaaaaaaaaaaaaaaa voir */
+.onglet_project{
+    padding: 50px 9.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* image */
+.onglet_project img{
+    border-radius: 16px;
+    
+}
+/* titre de la page */
 .onglet_project h1{
-    font-size: 40px;
+    font-size: 32px;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
     text-align: center;
 }
-.text_bloc h2{
-    font-size: 28px;
+/* titre du bloc */
+.onglet_project h2{
+    font-size: 24px;
     font-weight: 700;
     font-family: 'Jost', sans-serif;
     padding: 8px 0px;
 }
-.text_bloc p{
+/* text du bloc */
+.onglet_project p{
     font-size: 14px;
     font-weight: 500;
     font-family: 'Jost', sans-serif;
     padding-bottom: 16px;
 }
+/* bouton voir plus */
+.onglet_project button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.onglet_project a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none #000;
+    transition: 0.3s;
+}
+.onglet_project a:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    text-decoration: underline 2px #000;
+    text-underline-offset: 2px;
+}
 .project_bloc_1{
-    padding: 50px 0px;
+    padding: 64px 0px;
+}
+.text_bloc{
+    flex-direction: column;
+}
+/* version ordinateur */
+@media(min-width:780px){
+    
+    .onglet_project h1{
+        font-size: 48px;
+    }
+    .onglet_project h2{
+        font-size: 28px;
+    }
+    .onglet_project img{
+        width: 350px;
+        height: auto;
+    }
+    .onglet_project p{
+        font-size: 18px;
+    }
+    .onglet_project a{
+        font-size: 18px;
+    }
+    .project_bloc_1{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        }
+    .project_bloc_1 img{
+        display: flex;
+        justify-content: center;
+    }
+    .project_bloc_2{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+    }
+    .text_bloc{
+        max-width: 500px;
+        align-items: baseline;
+    }
+}
+@media(min-width:840px){
+
+    .background-burger{
+        padding: 30px 9.2%;
+        align-items: center;
+    }
 }
