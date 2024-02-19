@@ -80,13 +80,6 @@ a{
     align-items: center;
     justify-content: center;
     text-decoration: none #000;
-    transition: 0.3s;
-}
-.onglet_project a:hover{
-    cursor: pointer;
-    transform: translateY(-5px);
-    text-decoration: underline 2px #000;
-    text-underline-offset: 2px;
 }
 .project_bloc_1{
     padding: 64px 0px;
@@ -130,6 +123,15 @@ a{
     .text_bloc{
         max-width: 500px;
         align-items: baseline;
+    }
+    .onglet_project a{
+        transition: 0.3s;
+    }
+    .onglet_project a:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    text-decoration: underline 2px #000;
+    text-underline-offset: 2px;
     }
 }
 @media(min-width:840px){
