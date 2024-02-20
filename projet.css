@@ -43,7 +43,7 @@ a{
 .onglet_project img{
     border-radius: 16px;
     width: 100%;
-    height: auto;
+    height: 100%;
     
 }
 /* titre de la page */
@@ -104,7 +104,7 @@ a{
     }
     .onglet_project img{
         width: 350px;
-        height: auto;
+        height: 100%;
     }
     .onglet_project p{
         font-size: 18px;
