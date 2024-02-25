@@ -372,6 +372,40 @@ article{
    margin-bottom: 100px;
    text-align: center;
 }
+/* bouton pour voir plus de projet, qui ramène sur la page projet */
+.view_project{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    border: none;
+    width: 199px;
+    height: 53.896px;
+    background: rgb(156, 39, 176);
+    border-radius: 15px;
+    border: none;
+}
+.btn_view:hover{
+     background-image:radial-gradient(circle
+     farthest-corner at 10% 20%, rgba(156, 39, 176,1) 
+     40.8%, rgb(90, 4, 105) 100.2%);
+     filter: drop-shadow( 0px 0px 10px rgba(156, 39, 176,1));
+}
+.btn_view:active{
+    filter: brightness(50%);
+}
+
 /* dernière partie en bas le footer */
 footer{
     background-size: auto;
@@ -616,6 +650,9 @@ footer a{
         justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+    .btn_view{
+        margin-bottom: 50px;
     }
     /* dernière partie "le footer" */
     .container-footer-contact{
