@@ -336,7 +336,7 @@ article{
     font-size: 16px;
 }
 .art2{
-    background-image: url(img/Projet_en_cours.svg);
+    background-image: url(img/reboot.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -355,7 +355,7 @@ article{
     margin-top: 105px;
 }
 .art3{
-    background-image: url(img/Projet_en_cours.svg);
+    background-image: url(img/reboot.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
